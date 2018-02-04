@@ -1,9 +1,14 @@
-#è‡ªå®šä¹‰å˜é‡
-$desk = 'C:\users\administrator\desktop'
-#åˆ«å
-Set-Alias np "notepad"
-Set-Alias vim 'C:\Program Files (x86)\Vim\vim80\gvim.exe'
+#×Ô¶¨Òå±äÁ¿
+$desk = [System.Environment]::GetFolderPath('Desktop')
+$system = [System.Environment]::GetFolderPath('system')
+$githubpath = "C:\Users\Administrator\Documents\GitHub"
 
+#±ğÃû
+Set-Alias np "notepad"
+Set-Alias vim "C:\Program Files (x86)\Vim\vim80\gvim.exe"
+Set-Alias github "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe"
+Set-Alias firefox "C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+Set-Alias emacs "E:\Èí¼ş\Emacs\bin\emacs.exe"
 # To edit the Powershell Profile
 # (Not that I'll remember this)
 Function Edit-Profile

@@ -1,0 +1,2 @@
+# learning
+powershell script
